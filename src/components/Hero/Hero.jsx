@@ -2,6 +2,7 @@ import React from 'react'
 import { IoBagHandleOutline } from 'react-icons/io5'
 import HeroPng from "../../assets/fruits/fruit-plate.png";
 import LeafPng from "../../assets/fruits/leaf.png";
+import {motion} from "framer-motion"
 
 
 const Hero=()=>{

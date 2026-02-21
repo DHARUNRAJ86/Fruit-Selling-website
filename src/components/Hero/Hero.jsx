@@ -77,6 +77,7 @@ const Hero=()=>{
         transition={{duration:1,delay:1.5}}
         src={LeafPng} alt="" className='w-full md:max-w-[300px]'/>
     </div>
+    <br />
     <div>
         {/* Add your hero image here */}
     </div>

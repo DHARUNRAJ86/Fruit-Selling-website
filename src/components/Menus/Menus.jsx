@@ -29,7 +29,8 @@ const Menus = () => {
                         <motion.div 
                             variants={FadeLeft(menu.delay)}
                             initial="hidden"
-                            whileInView="visible"
+                            whileInView={"visible"}
+                            whileInHover={{scale:1.1}}
                             key={menu.id} 
                             className='bg-white rounded-2xl  py-2 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row items-center justify-between gap-3 group hover:scale-105 duration-300 transition-all'
                         >

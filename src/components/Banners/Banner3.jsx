@@ -1,9 +1,18 @@
 import React from 'react'
-import BannerPng from '../../assets/fruits/fruits-splash.png'
+import BannerPng from '../../assets/fruits/banner-bg.jpg'
 import {motion} from 'framer-motion'
-import {FadeUp,FadeLeft} from '../../utility/animation'
+import {FadeUp} from '../../utility/animation'
 
-const Banner =()=>{
+const bgStyle={
+    backgroundImage:`url(${BannerPng})`,
+    backgroundPosition:'center',
+    backgroundSize:'cover',
+    backgroundRepeat:'no-repeat',
+    height:'100%',
+    width:'100%'
+}
+
+const Banner3 =()=>{
     return(
         <section className='bg-orange-400/10'>
             <div className="container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 ">
@@ -61,4 +70,4 @@ const Banner =()=>{
         
     )
 }
-export default Banner
+export default Banner3

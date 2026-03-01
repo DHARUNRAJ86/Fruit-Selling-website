@@ -57,6 +57,7 @@ const Banner =()=>{
                      src={BannerPng} alt="" className='w-[260px] md:max-w-[400px] h-full object-cover drop-shadow'/>
                 </div>
             </div>
+            <br />
         </section>
     )
 }

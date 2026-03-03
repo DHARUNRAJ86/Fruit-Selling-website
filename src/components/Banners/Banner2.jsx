@@ -42,7 +42,7 @@ const Banner =()=>{
                                     animate="visible"
                                     className='flex justify-center md:justify-start'>
                                         <button className='primary-btn '>
-                                        Learn More
+                                        Download App
                                         </button>
                                     </motion.div>
                     </div>

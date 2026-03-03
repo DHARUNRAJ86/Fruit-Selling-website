@@ -12,7 +12,7 @@ const bgStyle={
 
 const Banner3 =()=>{
     return(
-        <section className=''>
+        <section className='container mb-10'>
             <div 
             style={bgStyle}
             className="container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 ml-14 mt-10 rounded-xl ">
@@ -28,20 +28,9 @@ const Banner3 =()=>{
                         variants={FadeLeft(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className='text-3xl lg:text-6xl font-bold uppercase'>
-                            Fresh & Organic Fruits
+                        className='text-3xl lg:text-6xl font-bold uppercase mt-20'>
+                            Get Fresh Fruits Today
                         </motion.h1>
-
-                        <motion.p
-                          variants={FadeLeft(0.7)}
-                          initial="hidden"
-                          animate="visible"
-                        >
-                            We provide farm-fresh, naturally grown fruits delivered 
-                            directly from trusted farmers to your doorstep. Our mission 
-                            is to ensure quality, freshness, and healthy living for every family.
-                        </motion.p>
-
                         <motion.p
                               variants={FadeLeft(0.7)}
                               initial="hidden"
@@ -57,7 +46,7 @@ const Banner3 =()=>{
                             variants={FadeLeft(0.9)}
                             initial="hidden"
                             animate="visible"
-                            className='flex justify-center md:justify-start mb-3'>
+                            className='flex justify-center md:justify-start mb-15'>
                             
                             <button className='primary-btn'>
                                 Explore Products
